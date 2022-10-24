@@ -1,10 +1,14 @@
+import java.util.Scanner;
+
 public class Equality {
 
-    public boolean checkEquality(int num1, int num2){
-        return num1 == num2;
-    }
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in); 
+        
+        int num1 = in.nextInt();
+        int num2 = in.nextInt();
 
-    public boolean checkNotEquality(int num1, int num2){
-        return num1 != num2;
+        System.out.println("Is num1 equal to num2 ? "     + (num1 == num2));
+        System.out.println("Is num1 not equal to num2 ? " + (num1 != num2));
     }
 }
