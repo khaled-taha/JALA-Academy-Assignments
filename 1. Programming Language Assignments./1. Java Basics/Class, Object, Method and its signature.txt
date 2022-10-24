@@ -1,13 +1,13 @@
-**How to create a class, object, method and its signature ?**
+How to create a class, object, method and its signature ?
 
-***1 - Class: The class consists of (class keyword + class name). Its access modifier may be public or protected.***
+1 - Class: The class consists of (class keyword + class name). Its access modifier may be public or protected.
 Example:
 
 public class Main{
 }
 
 =====================================================
-***2 - Object: The object is an instance of the class.
+2 - Object: The object is an instance of the class.
 -If we want to create an object, we will type the following (new + class name + parameter list of the used constructor).
  This object is called Anonymous object because it is without reference.
  Example: 
@@ -20,7 +20,7 @@ public class Main{
  Main main = new Main();
  =====================================================
 
- ***3 - Method: 
+ 3 - Method: 
  
  Method Declaration:
  1 - Modifier
