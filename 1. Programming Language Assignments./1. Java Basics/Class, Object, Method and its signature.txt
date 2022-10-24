@@ -1,6 +1,6 @@
-**How to create a class, object, method and its signature ?
+**How to create a class, object, method and its signature ?**
 
-***1 - Class: The class consists of (class keyword + class name). Its access modifier may be public or protected.
+***1 - Class: The class consists of (class keyword + class name). Its access modifier may be public or protected.***
 Example:
 
 public class Main{
