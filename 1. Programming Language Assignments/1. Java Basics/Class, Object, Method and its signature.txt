@@ -1,0 +1,52 @@
+How to create a class, object, method and its signature ?
+
+1 - Class: The class consists of (class keyword + class name). Its access modifier may be public or protected.
+
+# Naming convention:
+1- Class names should be nouns
+2- The first letter is in upper case and the rest of the words, if they exist, start in lower case.(Camel case)
+
+Example:
+
+public class Main{
+}
+
+=====================================================
+2 - Object: The object is an instance of the class.
+-If we want to create an object, we will type the following (new + class name + parameter list of the used constructor).
+ This object is called Anonymous object because it is without reference.
+ 
+ Example: 
+ 
+ new Main();
+ 
+ - If we want to create a reference,  we will type the following (Class Name or its parent class name + reference name)
+ Example:
+ 
+ Main main = new Main();
+ =====================================================
+
+ 3 - Method:
+ 
+ # Naming convention:
+ 1- The method name should be a verb.
+2- The first letter is in upper case and the rest of the words, if they exist, start in lower case.(Camel case)
+ 
+ Method Declaration:
+ 1 - Modifier
+ 2 - return type
+ 
+ # Method Signature:
+ 3 - Method name
+ 4 - Parameter list
+ 
+ 5 - Exception list (if exist)
+ 6 - Method body
+ 
+ Example:
+ 
+ public static void printArray(int ... nums){
+        System.out.println(Arrays.toString(nums));
+    }
+ 
+ 
