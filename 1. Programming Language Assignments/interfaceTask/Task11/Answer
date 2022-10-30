@@ -1,0 +1,4 @@
+
+// 11. Create an interface with static final variable
+
+All variables are public static final by default in the interface.
