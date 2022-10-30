@@ -1,0 +1,3 @@
+// 9. Create a PRIVATE or PROTECTED interface and print the values as above scenario
+
+We cannot create an interface as a private or protected.
